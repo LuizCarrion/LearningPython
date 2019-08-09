@@ -1,3 +1,4 @@
+# http://inventwithpython.com/hacking (BSD Licensed)
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 message = input("Paste the encrypted message: ")
 

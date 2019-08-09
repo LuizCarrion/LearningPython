@@ -1,3 +1,4 @@
+# http://inventwithpython.com/hacking (BSD Licensed)
 import transpositionEncryption, transpositionDecryption, time, os, sys
 
 def main():

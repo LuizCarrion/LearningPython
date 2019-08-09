@@ -1,3 +1,4 @@
+# http://inventwithpython.com/hacking (BSD Licensed)
 import pyperclip, math
 
 def main():

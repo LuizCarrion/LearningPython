@@ -1,4 +1,5 @@
-#import pyperclip
+# http://inventwithpython.com/hacking (BSD Licensed)
+import pyperclip
 
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -30,4 +31,4 @@ for letter in message:
         translated = translated + letter
 
 print(translated)
-#pyperclip.copy(translated)
+pyperclip.copy(translated)
