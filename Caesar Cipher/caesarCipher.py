@@ -1,4 +1,4 @@
-import pyperclip
+#import pyperclip
 
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -7,7 +7,7 @@ message = message.upper()
 
 mode = input("Please select 'encrypt' or 'decrypt':")
 
-key = int(input("Please type in the encryption key (0 - 26): "))
+key = int(input("Please type in the encryption key (0 - 25): "))
 
 translated = ""
 
@@ -30,4 +30,4 @@ for letter in message:
         translated = translated + letter
 
 print(translated)
-pyperclip.copy(translated)
+#pyperclip.copy(translated)
